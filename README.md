@@ -1,4 +1,4 @@
-# Grav Docker
+# Docker Grav
 
 Como rodar o [Grav](https://getgrav.org/) localmente utilizando o `docker` e `docker-compose`. Este projeto é baseado no original [docker-grav](https://github.com/getgrav/docker-grav).
 
