@@ -23,6 +23,8 @@ $ docker-compose up --build
 $ docker-compose up -d
 ```
 
+Para acessar o site: http://localhost:8080/
+
 ## Verificar se a máquina `docker` está funcionando
 
 ```
