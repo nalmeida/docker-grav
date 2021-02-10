@@ -1,0 +1,17 @@
+version: "2.1"
+volumes:
+  grav-data:
+    driver: local
+    driver_opts:
+      type: none
+      device: $PWD/grav
+      o: bind
+
+services:
+  grav:
+    build: ./
+    command: bash -c 'echo -e Grav is running http://localhost:8080'
+    ports:
+      - 8080:80
+    volumes:
+      - grav-data:/var/www/html

@@ -14,13 +14,13 @@ Como rodar o [Grav](https://getgrav.org/) localmente utilizando o `docker` e `do
 Clone este repositório no diretório desejado.
 
 ```
-$ docker-compose up --build
+$ docker-compose -f ./docker/docker-compose.yml up --build
 ```
 
 ## Rodando o projeto através do `docker-compose`
 
 ```
-$ docker-compose up -d
+$ docker-compose -f ./docker/docker-compose.yml up
 ```
 
 Para acessar o site: http://localhost:8080/
@@ -34,6 +34,6 @@ $ docker ps
 ## Parando o projeto
 
 ```
-$ docker-compose down
+$ docker-compose -f ./docker/docker-compose.yml down
 ```
 
